@@ -46,4 +46,4 @@ if __name__ == "__main__":
     model_path = sys.argv[1]
     analogy_file = sys.argv[2]
     mean_distance = evaluate_analogy(model_path, analogy_file)
-    print(mean_distance)  # Retorna apenas a média
+    print(mean_distance)
