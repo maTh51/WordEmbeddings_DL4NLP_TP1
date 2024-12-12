@@ -1,0 +1,24 @@
+Tempo total de execução: 20145 segundos
+
+Primeira leva de testes:
+
+CBOW_VALUES=(0 1)
+SIZE_VALUES=(50 100 200)
+WINDOW_VALUES=(2 5 10 20)
+ITER_VALUES=(5 10 15 20 40)
+
+Considerações: min_count realmente melhora bem o algoritmo, consegui um 0.6 (mas não é variável)
+
+Segunda leva de testes:
+
+CBOW_VALUES=(0 1)
+SIZE_VALUES=(25 50 75 100)
+WINDOW_VALUES=(1 2 3 4 5)
+ITER_VALUES=(5 10)
+
+Terceira leva de testes:
+
+CBOW_VALUES=(0 1)
+SIZE_VALUES=(100 150 200 250 300)
+WINDOW_VALUES=(25 30 40 50)
+ITER_VALUES=(5 10)
